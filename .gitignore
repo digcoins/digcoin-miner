@@ -1,0 +1,6 @@
+*.abi
+*.wasm
+*.sh
+test*
+__pycache__
+

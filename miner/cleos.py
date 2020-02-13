@@ -38,7 +38,7 @@ class Cleos_Handler:
         self.url_index = 0
 
         if not self.unlockWallet():
-             raise ClassInitError("Failed to unlock cleos wallet")
+            raise ClassInitError("Failed to unlock cleos wallet")
 
         if self.num_urls <= 0:
             raise ClassInitError("Require at least one API endpoint URL")
